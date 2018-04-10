@@ -32,7 +32,12 @@ html, body{
   margin: 5px;
 }
 
-
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  top: calc(50% - 0.5em);
+  /* Keep icon in center of input, regardless of the input height */
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */

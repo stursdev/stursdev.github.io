@@ -36,8 +36,42 @@
                 <div class="modal-header text-center">
                     <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Registration</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sign In Modal -->
+    <div class="modal fade" id="modalSignIpForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -49,20 +83,21 @@
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Home Page -->
     <div class="container-fluid cover-home">
         <div class="caption-home">
             <h1 class="display-3">Clean and Green</h1>
             <p id="pcaption"> Recycling Made Easy</p>
             <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalRegisterForm">Register</a>
 
-            <a class="btn btn-success btn-lg bottons" href="#" role="button">Sign In</a>
+            <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalSignIpForm">Sign In</a>
         </div>
     </div>
 
