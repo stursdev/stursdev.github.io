@@ -31,7 +31,7 @@ body {
     top: 45%;
     color: white;
     opacity: 1;
-    padding: 5px;
+    padding: 10px;
     margin: 0px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ body {
 
 #about-content{
     margin: 0px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .resume-page {
