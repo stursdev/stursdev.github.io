@@ -1,147 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clean and Green</title>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Download Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Custom CSS file -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-
+  <title> Hello, world!</title>
 
 </head>
 
 <body>
-    <!-- Register Modal -->
-    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Registration</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success"data-dismiss="modal">Submit</button>
-                </div>
-            </div>
+  <div class="container-fluid">
+    <div class="home-page">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navbar-custom">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-content">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <div class="caption">
+        <span class="caption-text">
+          <h1>Aspiring Developer</h1>
+        </span>
+      </div>
     </div>
-    
-    <!-- Sign In Modal -->
-    <div class="modal fade" id="modalSignIpForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Sign In</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Submit</button>
-                </div>
-            </div>
+    <div class="about-me-page">
+      <div id="about-content">
+        <h1 id="edu-title"> Hello!</h1>
+        <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laboriosam, explicabo, voluptate recusandae iure libero tenetur ut officiis deleniti ullam accusantium optio, odit, veritatis et quisquam? Illum at iure fuga.</h2>
+      </div>
+    </div>
+      <div class="resume-page">
+        <div class="resume-content">
+          <h1> Resume</h1>
+          <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus laboriosam, explicabo, voluptate recusandae iure libero tenetur ut officiis deleniti ullam accusantium optio, odit, veritatis et quisquam? Illum at iure fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A mollitia, est voluptates vitae at, ratione, facere animi omnis praesentium beatae ducimus distinctio corporis quasi quos fugiat. Corrupti aperiam rerum quae.</h2>
         </div>
-    </div>
-    <!-- Home Page -->
-    <div class="container-fluid cover-home">
-        <div class="caption-home">
-            <h1 class="display-3">Clean and Green</h1>
-            <p id="pcaption"> Recycling Made Easy</p>
-            <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalRegisterForm">Register</a>
 
-            <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalSignIpForm">Sign In</a>
-            <a href="map.html" class="btn-success btn bottons" >Map</a>
-        </div>
+      </div>
     </div>
 
-    <!-- Marketing messaging and featurettes
-      ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
-        <div class="row">
-            <div class="col how-it-works">
-                <h1>How it works?</h1>
-            </div>
-        </div>
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <i class="fas fa-user-circle fa-7x"></i>
-                <h2>Register</h2>
-                <p>Register for a free account. Our service will allow you to recycle at your convinience.</p>
-                <br>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <i class="fas fa-location-arrow fa-7x"></i>
-                <h2>Request a pick up</h2>
-                <p>Request a pick up by by telling us your location. Our service provides pick up requests for plastic, glass, and cans.</p>
-                <br>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <i class="fas fa-cubes fa-7x"></i>
-                <h2>Leave your items</h2>
-                <p>Once you requested a pick up, prepare your recyclables. Leave your items at your specified location and we will pick it up.</p>
-                <br>
-            </div>
-            <!-- /.col-lg-4 -->
-        </div>
-        <!-- /.row -->
-        <footer class="site-footer">
-            <p>This site is built by Clean and Green Team &copy; 2018 </p>
-        </footer>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 
 </html>
