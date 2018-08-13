@@ -23,17 +23,16 @@ body {
     opacity: 1;
     font-size: 20px;
     padding: 1px;
-    margin: 5px
+    margin: 0px;
 }
 
 .caption{
     position: relative;
     top: 45%;
-    
     color: white;
     opacity: 1;
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
     text-align: center;
 }
 
@@ -48,7 +47,7 @@ body {
 }
 
 #about-content{
-    margin: 5px;
+    margin: 0px;
     padding: 10px;
 }
 
