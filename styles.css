@@ -36,8 +36,11 @@ body {
     text-align: center;
 }
 
+#job-title{
+    color: #2a54f5;
+}
 .about-me-page {
-    background: black;
+    background: url(img/color3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,5 +61,87 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    color: white;
+    color: black;
+    padding: 0px;
+    
 }
+
+#res-title{
+    text-align: center;
+    
+}
+.dates{
+    text-align: right;
+}
+
+.contactme{
+    background: black;
+    color: white;
+    padding: 20px;
+    height: 500px;
+    border: 1px solid black
+}
+
+#skills-title{
+    color: black;
+    text-align: center;
+}
+.skills{
+    padding: 10px;
+    
+}
+
+.expertise-item {
+    margin-bottom: 20px;
+}
+
+.expertise-item h3 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.progress-item .progress-title {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.progress-item .progress {
+    height: 20px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.progress-item .progress-bar {
+    background-color: #2a54f5;
+    box-shadow: none;
+    text-align: right;
+}
+
+.section-title{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#msg-title{
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.footer .copyright-section {
+    font-size: 13px;
+    color: #888888;
+
+}
+
+.footer .copyright-section .copytext {
+    font-weight: 400;
+    display: block;
+}
+
