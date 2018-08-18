@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean and Green</title>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="img/logo.png" rel=icon>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- Register Modal -->
+    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <h4>I want to:</h4>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="userType" id="option1" value="client">
+                          <label class="form-check-label" for="inlineRadio1">Recycle</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="userType" id="option2" value="driver">
+                          <label class="form-check-label" for="inlineRadio1">Pick up recycling</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success"data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sign In Modal -->
+    <div class="modal fade" id="modalSignInForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title w-100 font-weight-bold" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home Page -->
+    <div class="container-fluid cover-home">
+        <div class="caption-home">
+            <h1 class="display-3">Clean and Green</h1>
+            <p id="pcaption"> Recycling Made Easy</p>
+            <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalRegisterForm">Register</a>
+
+            <a href="" class="btn btn-success btn-lg bottons" data-toggle="modal" data-target="#modalSignInForm">Sign In</a>
+            <a href="map.html" class="btn-success btn bottons" >Map</a>
+        </div>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+        <div class="row">
+            <div class="col how-it-works">
+                <h1>How it works?</h1>
+            </div>
+        </div>
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <i class="fas fa-user-circle fa-7x"></i>
+                <h2>Register</h2>
+                <p>Register for a free account. Our service will allow you to recycle at your convinience.</p>
+                <br>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <i class="fas fa-location-arrow fa-7x"></i>
+                <h2>Request a pick up</h2>
+                <p>Request a pick up by by telling us your location. Our service provides pick up requests for plastic, glass, and cans.</p>
+                <br>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <i class="fas fa-cubes fa-7x"></i>
+                <h2>Leave your items</h2>
+                <p>Once you requested a pick up, prepare your recyclables. Leave your items at your specified location and we will pick it up.</p>
+                <br>
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+        <footer class="site-footer">
+            <p>This site is built by Clean and Green Team &copy; 2018 </p>
+        </footer>
+
+</body>
+
+</html>

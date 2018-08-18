@@ -19,14 +19,15 @@ body {
     background-size: cover;
     height: 100%;
 }
-.navbar-custom{
+
+.navbar-custom {
     opacity: 1;
     font-size: 20px;
     padding: 1px;
     margin: 0px;
 }
 
-.caption{
+.caption {
     position: relative;
     top: 45%;
     color: white;
@@ -36,9 +37,10 @@ body {
     text-align: center;
 }
 
-#job-title{
+#job-title {
     color: #2a54f5;
 }
+
 .about-me-page {
     background: url(img/color3.jpg);
     background-attachment: fixed;
@@ -49,9 +51,9 @@ body {
     color: white;
 }
 
-#about-content{
+#about-content {
     margin: 0px;
-    padding: 15px;
+    padding: 35px;
 }
 
 .resume-page {
@@ -63,18 +65,19 @@ body {
     height: 100%;
     color: black;
     padding: 0px;
-    
+
 }
 
-#res-title{
+#res-title {
     text-align: center;
-    
+
 }
-.dates{
+
+.dates {
     text-align: right;
 }
 
-.contactme{
+#contactme {
     background: black;
     color: white;
     padding: 20px;
@@ -82,13 +85,14 @@ body {
     border: 1px solid black
 }
 
-#skills-title{
+#skills-title {
     color: black;
     text-align: center;
 }
-.skills{
+
+.skills {
     padding: 10px;
-    
+
 }
 
 .expertise-item {
@@ -119,12 +123,12 @@ body {
     text-align: right;
 }
 
-.section-title{
+.section-title {
     padding-top: 15px;
     text-align: center;
 }
 
-#msg-title{
+#msg-title {
     text-align: center;
 }
 
@@ -144,4 +148,3 @@ body {
     font-weight: 400;
     display: block;
 }
-
